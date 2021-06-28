@@ -1,0 +1,90 @@
+.logotipo {
+  width: 240px;
+  height: 74px;
+}
+
+#home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #819ac3;
+  background-image: url("../../images/Dog.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .content {
+  position: relative;
+
+  width: 100%;
+  max-width: 900px;
+
+  height: 100%;
+  max-height: 500px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: url("../../images//People\ And\ Cat.svg") no-repeat 75% center;
+  background-size: 405px 420px;
+}
+
+#home .content main {
+  max-width: 350px;
+}
+
+#home .content main h1 {
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+#home .content main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.content .developed {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  font-size: 20px;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+}
+
+.content .developed strong {
+  font-weight: 800;
+}
+
+.content .button-access {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 80px;
+  height: 80px;
+  background: #9be589;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content .button-access:hover {
+  background: #89e5e5;
+}

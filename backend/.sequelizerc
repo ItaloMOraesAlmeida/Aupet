@@ -1,0 +1,7 @@
+const patch = require("path");
+module.exports = {
+    config: patch.resolve("src", "config", "database.js"),
+    "models-path": patch.resolve("src", "app", "models"),
+    "seeders-path": patch.resolve("src", "database", "seeders"),
+    "migrations-path": patch.resolve("src", "database", "migrations"),
+};

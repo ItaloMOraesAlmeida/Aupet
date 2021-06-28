@@ -1,0 +1,38 @@
+{
+    "name": "aupet",
+    "version": "1.0.0",
+    "description": "Aplication for donation house petpet donation apllication",
+    "main": "index.js",
+    "author": "Italo Moraes Almeida",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "dev": "export NODE_ENV=dev && nodemon src/server.js",
+        "prod": "export NODE_ENV=prod && node src/index.js",
+        "test": "export NODE_ENV=jest && jest --passWithNoTests && node open.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-async-errors": "^3.1.1",
+        "multer": "^1.4.2",
+        "nodemon": "^2.0.6",
+        "sequelize": "^6.3.5",
+        "sqlite3": "^5.0.0",
+        "sucrase": "^3.16.0",
+        "yup": "^0.29.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "babel-jest": "^26.6.0",
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "jest": "^26.6.0",
+        "jest-html-reporters": "^2.1.0",
+        "open": "^7.3.0",
+        "sequelize-cli": "^6.2.0"
+    }
+}

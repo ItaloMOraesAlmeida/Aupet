@@ -1,0 +1,97 @@
+.logotipo {
+  width: 240px;
+  height: 74px;
+
+  margin-left: -90px;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+  display: flex;
+}
+
+#container aside {
+  width: 440px;
+  background-color: #819ac3;
+  padding: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#container aside h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#container aside p {
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+#container .leaflet-container {
+  z-index: 5;
+}
+
+#container .new-house {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: #819ac3;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+#container .new-house:hover {
+  background: #5e97f5;
+}
+
+#container .map-popup .leaflet-popup-content-wrapper {
+  background: rgb(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+#container .map-popup .leaflet-popup-content {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#container .map-popup .leaflet-popup-content a {
+  width: 40px;
+  height: 40px;
+  background: #819ac3;
+  box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Retirar a flecha do bação */
+#container .map-popup .leaflet-popup-tip-container {
+  display: none;
+}

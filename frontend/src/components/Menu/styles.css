@@ -1,0 +1,39 @@
+aside.menu {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: #819ac3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside.menu img {
+  width: 48px;
+}
+
+aside.menu footer a,
+aside.menu footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  background: #9be589;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside.menu footer a:hover,
+aside.menu footer button:hover {
+  background: #bbf7ad;
+}
